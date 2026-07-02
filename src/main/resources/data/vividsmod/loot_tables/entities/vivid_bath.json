@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "weight": 3, "name": "vividsmod:soap" },
+        { "type": "minecraft:item", "weight": 2, "name": "vividsmod:bubble" },
+        { "type": "minecraft:item", "weight": 2, "name": "vividsmod:towel" }
+      ]
+    }
+  ]
+}

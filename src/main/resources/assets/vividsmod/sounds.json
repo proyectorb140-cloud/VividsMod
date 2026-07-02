@@ -1,0 +1,42 @@
+{
+  "vivid_ambient": {
+    "subtitle": "subtitles.vividsmod.vivid_ambient",
+    "sounds": ["vividsmod:vivid_ambient"]
+  },
+  "vivid_hurt": {
+    "subtitle": "subtitles.vividsmod.vivid_hurt",
+    "sounds": ["vividsmod:vivid_hurt"]
+  },
+  "vivid_death": {
+    "subtitle": "subtitles.vividsmod.vivid_death",
+    "sounds": ["vividsmod:vivid_death"]
+  },
+  "vivid_angry": {
+    "subtitle": "subtitles.vividsmod.vivid_angry",
+    "sounds": ["vividsmod:vivid_angry"]
+  },
+  "vivid_greet": {
+    "subtitle": "subtitles.vividsmod.vivid_greet",
+    "sounds": ["vividsmod:vivid_greet"]
+  },
+  "vivid_step": {
+    "subtitle": "subtitles.vividsmod.vivid_step",
+    "sounds": ["vividsmod:vivid_step"]
+  },
+  "vivid_punch": {
+    "subtitle": "subtitles.vividsmod.vivid_punch",
+    "sounds": ["vividsmod:vivid_punch"]
+  },
+  "vivito_ambient": {
+    "subtitle": "subtitles.vividsmod.vivito_ambient",
+    "sounds": ["vividsmod:vivito_ambient"]
+  },
+  "vivid_bath_ambient": {
+    "subtitle": "subtitles.vividsmod.vivid_bath_ambient",
+    "sounds": ["vividsmod:vivid_bath_ambient"]
+  },
+  "vivid_bath_bubble": {
+    "subtitle": "subtitles.vividsmod.vivid_bath_bubble",
+    "sounds": ["vividsmod:vivid_bath_bubble"]
+  }
+}

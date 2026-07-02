@@ -1,0 +1,25 @@
+{
+  "entity.vividsmod.vivid_normal": "Vivid",
+  "entity.vividsmod.vivito": "Vivito",
+  "entity.vividsmod.vivid_bath": "Vivid del Baño",
+
+  "item.vividsmod.vivid_normal_spawn_egg": "Huevo de Spawn de Vivid",
+  "item.vividsmod.vivito_spawn_egg": "Huevo de Spawn de Vivito",
+  "item.vividsmod.vivid_bath_spawn_egg": "Huevo de Spawn de Vivid del Baño",
+  "item.vividsmod.soap": "Jabón",
+  "item.vividsmod.bubble": "Burbuja",
+  "item.vividsmod.towel": "Toalla",
+
+  "creativetab.vividsmod.vivids_tab": "Vivids",
+
+  "subtitles.vividsmod.vivid_ambient": "Vivid parlotea",
+  "subtitles.vividsmod.vivid_hurt": "Vivid se queja",
+  "subtitles.vividsmod.vivid_death": "Vivid muere",
+  "subtitles.vividsmod.vivid_angry": "Vivid gruñe",
+  "subtitles.vividsmod.vivid_greet": "Vivid saluda",
+  "subtitles.vividsmod.vivid_step": "Pasos de Vivid",
+  "subtitles.vividsmod.vivid_punch": "Puñetazo de Vivid",
+  "subtitles.vividsmod.vivito_ambient": "Vivito ríe",
+  "subtitles.vividsmod.vivid_bath_ambient": "Vivid del Baño burbujea",
+  "subtitles.vividsmod.vivid_bath_bubble": "Burbujas"
+}

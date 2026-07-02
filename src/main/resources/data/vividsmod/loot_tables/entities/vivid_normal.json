@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "weight": 3, "name": "minecraft:bread" },
+        { "type": "minecraft:item", "weight": 2, "name": "minecraft:poppy" },
+        { "type": "minecraft:item", "weight": 1, "name": "minecraft:dandelion" }
+      ]
+    }
+  ]
+}

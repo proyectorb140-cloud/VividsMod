@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="vividsmod"
+version="${file.jarVersion}"
+displayName="Vivids"
+displayURL=""
+logoFile=""
+credits="Creado con ayuda de Claude"
+authors="Tu nombre aqui"
+description='''
+Mod de Minecraft que agrega los Vivids: criaturas amigables con forma de puño,
+en tres razas (Vivid Normal, Vivito, Vivids del Baño) y dos tamaños cada una.
+'''
+
+[[dependencies.vividsmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.vividsmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
