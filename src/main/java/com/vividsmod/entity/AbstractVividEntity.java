@@ -18,9 +18,10 @@ import net.minecraft.world.entity.ai.goal.*;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.pathfinder.BlockPathTypes;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.ServerLevelAccessor;
+import net.minecraft.world.level.pathfinder.BlockPathTypes;
 import net.minecraft.world.level.pathfinder.Path;
 import org.jetbrains.annotations.Nullable;
 
@@ -126,7 +127,7 @@ public abstract class AbstractVividEntity extends PathfinderMob implements Neutr
     }
 
     @Override
-    public void finalizeSpawn(ServerLevelAccessor level, DifficultyInstance difficulty, MobSpawnType spawnType,
+    public SpawnGroupData finalizeSpawn(ServerLevelAccessor level, DifficultyInstance difficulty, MobSpawnType spawnType,
                                @Nullable SpawnGroupData spawnGroupData, @Nullable CompoundTag tag) {
         boolean large = this.getRandom().nextBoolean();
         this.setLarge(large);
