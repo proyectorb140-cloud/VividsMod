@@ -2,7 +2,7 @@ package com.vividsmod.registry;
 
 import com.vividsmod.Vivids;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ForgeSpawnEggItem;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
