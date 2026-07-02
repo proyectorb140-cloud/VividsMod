@@ -1,0 +1,33 @@
+name: Compilar mod Vivids
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el codigo del repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Instalar Gradle
+        uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: '8.1.1'
+
+      - name: Compilar el mod
+        run: gradle build --no-daemon
+
+      - name: Subir el .jar resultante como descarga
+        uses: actions/upload-artifact@v4
+        with:
+          name: vividsmod-jar
+          path: build/libs/*.jar
